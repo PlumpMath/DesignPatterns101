@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rigel.Samples.DesignPatterns.Creational", "Rigel.Samples.DesignPatterns.Creational\Rigel.Samples.DesignPatterns.Creational.csproj", "{B40F18CD-0D6A-4E68-9A03-D27622B6A073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rigel.Samples.DesignPatterns.Structural", "Rigel.Samples.DesignPatterns.Structural\Rigel.Samples.DesignPatterns.Structural.csproj", "{9E8BFD2D-588F-479C-A406-82D36D527165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rigel.Samples.DesignPatterns.Behavioral", "Rigel.Samples.DesignPatterns.Behavioral\Rigel.Samples.DesignPatterns.Behavioral.csproj", "{D3D69B8A-CD41-45F8-8AF6-E09AFC2BA96A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rigel.Samples.DesignPatterns.DDD", "Rigel.Samples.DesignPatterns.DDD\Rigel.Samples.DesignPatterns.DDD.csproj", "{B26963E9-8186-4294-9310-3D29115E9292}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B40F18CD-0D6A-4E68-9A03-D27622B6A073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40F18CD-0D6A-4E68-9A03-D27622B6A073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40F18CD-0D6A-4E68-9A03-D27622B6A073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40F18CD-0D6A-4E68-9A03-D27622B6A073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E8BFD2D-588F-479C-A406-82D36D527165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8BFD2D-588F-479C-A406-82D36D527165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8BFD2D-588F-479C-A406-82D36D527165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E8BFD2D-588F-479C-A406-82D36D527165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3D69B8A-CD41-45F8-8AF6-E09AFC2BA96A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D69B8A-CD41-45F8-8AF6-E09AFC2BA96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D69B8A-CD41-45F8-8AF6-E09AFC2BA96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D69B8A-CD41-45F8-8AF6-E09AFC2BA96A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B26963E9-8186-4294-9310-3D29115E9292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B26963E9-8186-4294-9310-3D29115E9292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B26963E9-8186-4294-9310-3D29115E9292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B26963E9-8186-4294-9310-3D29115E9292}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,75 @@
+Design Patterns 101
+
+= Intro to Patterns 
+	- What are design patterns 
+	- Why do we care about them 
+	- When and when not to introduce design patterns 
+	
+= Design Patterns of GOF 
+	- Creational 
+		. Abstract Factory 
+		. Factory Method
+		. Prototype 
+		. Singleton 
+		
+	- Structural 
+		. Adapter 
+		. Bridge 
+		. Composite 
+		. Decorator 
+		. Facade 
+		. Flyweight 
+		. Proxy 
+		
+	- Behavioral 
+		. Chain of Resposability 
+		. Command 
+		. Interpreter 
+		. Iterator 
+		. Mediator 
+		. Memento 
+		. Observer 
+		. State 
+		. Strategy 
+		. Template Method 
+		. Visitor 
+		
+= Most commonly use pattern and explanation 
+	- Singleton 
+	- Strategy 
+	- Facade 
+	- Observer 
+	- Factory and Factory Method
+	- Template Method 
+	- Chain of Responsability 
+	- Proxy 
+	
+= Other patterns you might hear about 
+	- MVC 
+	- MVVM 
+	- Repository 
+	- Unit of Work 
+	- MonoState 
+	- Fluent Interface 
+	- Specification 
+	- Query 
+	- Event Aggregator 
+	- Lazy Load 
+	- Circuit Breaker 
+	- Null Object 
+	- Service Locator 
+	- Rules 
+	- Identity Map 
+	- MVP 
+	- Page Controller 
+	- DTO 
+	- Map Reduce 
+	- CQRS 
+	- 
+	
+	
+= Other useful Design Patterns 
+	- Enterprise Architecture Patterns 
+	- Application Architectural Patterns 
+	- 
+	
