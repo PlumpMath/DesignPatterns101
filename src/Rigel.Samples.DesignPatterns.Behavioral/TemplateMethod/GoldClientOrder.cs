@@ -2,6 +2,8 @@
 {
     public class GoldClientOrder : ProductOrder
     {
+        private IInventoryService _priorityInventory;
+
         public override void Pick()
         {
             

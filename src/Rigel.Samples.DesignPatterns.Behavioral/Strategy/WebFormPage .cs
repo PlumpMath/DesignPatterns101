@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-using System.Xml.Linq;
-
+﻿
 namespace Rigel.Samples.DesignPatterns.Behavioral.Strategy
 {
     public class WebFormPage 

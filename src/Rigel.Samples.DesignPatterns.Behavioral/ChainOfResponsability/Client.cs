@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Rigel.Samples.DesignPatterns.Behavioral.ChainOfResponsability
 {
-    public class InternetServiceClient
+    public class Client
     {
         public void CallShawTechSupport()
         {

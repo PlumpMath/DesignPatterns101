@@ -39,7 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ChainOfResponsability\InternetServiceClient.cs" />
+    <Compile Include="ChainOfResponsability\Client.cs" />
     <Compile Include="ChainOfResponsability\IShawClientSupportLine.cs" />
     <Compile Include="ChainOfResponsability\ITechSupportEngineer.cs" />
     <Compile Include="ChainOfResponsability\JuniorTechSupport.cs" />
@@ -49,6 +49,11 @@
     <Compile Include="ChainOfResponsability\ShawTechExpert.cs" />
     <Compile Include="ChainOfResponsability\ShawTechnicalProblem.cs" />
     <Compile Include="ChainOfResponsability\ShawTechSupportEngineer.cs" />
+    <Compile Include="Observer\Client.cs" />
+    <Compile Include="Observer\IWeatherInfoReceiver.cs" />
+    <Compile Include="Observer\IWeatherStation.cs" />
+    <Compile Include="Observer\RegistrationToken.cs" />
+    <Compile Include="Observer\WeatherStation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strategy\DisablePageStrategy.cs" />
     <Compile Include="Strategy\EditPageStrategy.cs" />
@@ -67,9 +72,7 @@
     <Compile Include="TemplateMethod\PriorityOrder.cs" />
     <Compile Include="TemplateMethod\ProductOrder.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Observer\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
