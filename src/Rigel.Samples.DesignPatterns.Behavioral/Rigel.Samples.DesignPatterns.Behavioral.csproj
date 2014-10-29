@@ -39,6 +39,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChainOfResponsability\InternetServiceClient.cs" />
+    <Compile Include="ChainOfResponsability\IShawClientSupportLine.cs" />
+    <Compile Include="ChainOfResponsability\ITechSupportEngineer.cs" />
+    <Compile Include="ChainOfResponsability\JuniorTechSupport.cs" />
+    <Compile Include="ChainOfResponsability\ShawClientSupport.cs" />
+    <Compile Include="ChainOfResponsability\ShawDevice.cs" />
+    <Compile Include="ChainOfResponsability\ShawProblemFixingStep.cs" />
+    <Compile Include="ChainOfResponsability\ShawTechExpert.cs" />
+    <Compile Include="ChainOfResponsability\ShawTechnicalProblem.cs" />
+    <Compile Include="ChainOfResponsability\ShawTechSupportEngineer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strategy\DisablePageStrategy.cs" />
     <Compile Include="Strategy\EditPageStrategy.cs" />
@@ -49,11 +59,16 @@
     <Compile Include="Strategy\PageState.cs" />
     <Compile Include="Strategy\ReadOnlyPageStrategy.cs" />
     <Compile Include="Strategy\WebFormPage .cs" />
+    <Compile Include="TemplateMethod\GoldClientOrder.cs" />
+    <Compile Include="TemplateMethod\IAccoutingService.cs" />
+    <Compile Include="TemplateMethod\IInventoryService.cs" />
+    <Compile Include="TemplateMethod\IShippingService.cs" />
+    <Compile Include="TemplateMethod\NormalOrder.cs" />
+    <Compile Include="TemplateMethod\PriorityOrder.cs" />
+    <Compile Include="TemplateMethod\ProductOrder.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ChainOfResponsability\" />
     <Folder Include="Observer\" />
-    <Folder Include="TemplateMethod\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

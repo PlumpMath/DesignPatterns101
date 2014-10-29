@@ -25,6 +25,7 @@ namespace Rigel.Samples.DesignPatterns.Creational.Factory
                     dotNetType = typeof(InternalNotification);
                     break;
             }
+
             
             var notification = Activator.CreateInstance(dotNetType);
 
