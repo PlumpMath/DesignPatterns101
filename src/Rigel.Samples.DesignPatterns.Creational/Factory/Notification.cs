@@ -3,83 +3,32 @@ using System.Dynamic;
 
 namespace Rigel.Samples.DesignPatterns.Creational.Factory
 {
-    public enum NotificationType
-    {
-        Sms,
-        Email,
-        Mail,
-        Push,
-        EMessage
-    }
-
-    public interface INotification
-    {
-        string UserId { get; }
-        string Title { get;  }
-        string Content { get; }
-    }
-
     public class Notification : INotification
     {
-        public string UserId { get; protected set; }
-        public string Title { get; protected set; }
-        public string Content { get; protected set; }
-
-        public static TNotification Create<TNotification>() where TNotification : INotification
-        {
-            var notification = Activator.CreateInstance<TNotification>();
-            return notification;
-        }
+        public string UserId { get; set; }
+        public string Title { get; set; }
+        public string Content { get; set; }
 
         public static INotification Create(NotificationType type) 
         {
-            Type dotNetType = null;
+            Type dotNetType = typeof(InternalNotification);
 
-            if (type == NotificationType.Sms)
+            switch (type)
             {
-                dotNetType = typeof(TextMessageNotification);
+                case NotificationType.Sms:
+                    dotNetType = typeof (TextMessageNotification);
+                    break;
+                case NotificationType.Email:
+                    dotNetType = typeof(EmailNotification);
+                    break;
+                case NotificationType.Internal:
+                    dotNetType = typeof(InternalNotification);
+                    break;
             }
+            
+            var notification = Activator.CreateInstance(dotNetType);
 
-            if (type == NotificationType.Email)
-            {
-                dotNetType = typeof(EmailNotification);
-            }
-
-            if (type == NotificationType.Push)
-            {
-                dotNetType = typeof(PushNotification);
-            }
-
-            var notification = Activator.CreateInstance<TNotification>();
-            return notification;
+            return notification as INotification;
         }
-    }
-
-    public class TextMessageNotification : Notification
-    {
-        public static TextMessageNotification Create(string phoneNumber, string content)
-        {
-            return new TextMessageNotification() { UserId = phoneNumber, Title = "SMS", Content = content};
-        }
-    }
-
-    public class EmailNotification : Notification
-    {
-        public static EmailNotification Create(string emailAddress, string subject, string body)
-        {
-            return new EmailNotification() { UserId = emailAddress, Title = subject, Content = body };
-        }
-    }
-
-    public class MailNotification : Notification
-    {
-    }
-
-    public class EMessageNotification : Notification
-    {
-    }
-
-    public class PushNotification : Notification
-    {
     }
 }

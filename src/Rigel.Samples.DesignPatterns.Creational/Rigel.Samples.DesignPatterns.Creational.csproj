@@ -39,7 +39,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factory\EmailNotification.cs" />
+    <Compile Include="Factory\INotification.cs" />
+    <Compile Include="Factory\InternalNotification.cs" />
     <Compile Include="Factory\Notification.cs" />
+    <Compile Include="Factory\NotificationClient.cs" />
+    <Compile Include="Factory\NotificationType.cs" />
+    <Compile Include="Factory\TextMessageNotification.cs" />
     <Compile Include="Singleton\LazySingleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Singleton\EagerSingleton.cs" />

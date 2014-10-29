@@ -1,0 +1,23 @@
+Most of these patterns you are already using or have seen it before
+
+
+What patterns are 
+  - Way to attack different common problems
+  - Easier and more maintainable code 
+  - Recipe  
+  
+
+What patterns arent 
+
+
+Why do I care about patterns 
+
+Word of caution 
+ - using patterns complicates code 
+ - when applying patterns one should weight if it is worthy to apply it 
+
+
+Pattern Catalog 
+- Creational 
+   -- Singleton 
+
